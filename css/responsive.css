@@ -1,0 +1,857 @@
+@media (min-width:1200px) {}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .banner_text_left h2 {
+        font-size: 90px;
+        line-height: .6;
+    }
+
+    .banner_img img{
+        width: 120%;
+    }
+
+    .banner_text_left h2 span {
+        font-size: 53px;
+    }
+
+    .banner_text_right h1 {
+        font-size: 95px;
+        line-height: .8;
+    }
+
+    .filter_menu ul li {
+        margin: 0px 9px;
+    }
+
+    .filter_text h3 {
+        padding-left: 0px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    /*===========================================
+                Banner part start 
+    ===========================================*/
+
+    .banner_man {
+        left: 41%;
+        bottom: -100px;
+    }
+
+    .banner_img img {
+        width: 140%;
+    }
+
+    #banner_part {
+        padding: 115px 0 100px;
+    }
+
+    .banner_btn {
+        bottom: 58%;
+    }
+
+    /*===========================================
+                Banner part end 
+    ===========================================*/
+
+    /*===========================================
+                Menu part start 
+    ===========================================*/
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 0 15px;
+    }
+
+    /*===========================================
+                Menu part end 
+    ===========================================*/
+
+    /*===========================================
+                About part start 
+    ===========================================*/
+    #about_part {
+        padding: 70px 0;
+    }
+
+    .about_text h3 {
+        padding-top: 0px;
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    .about_text p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 20px 0 30px;
+    }
+
+    .about_text p span {
+        padding-top: 15px;
+    }
+
+    .about_counter h3 {
+        font-size: 65px;
+        margin-bottom: -10px;
+    }
+
+    .about_counter p {
+        font-size: 30px;
+    }
+
+    .about_counter::after {
+        width: 180px;
+    }
+
+    .about_counter:nth-child(2)::after {
+        width: 210px;
+    }
+
+    /*===========================================
+                About part end 
+    ===========================================*/
+
+    /*===========================================
+                Service part start 
+    ===========================================*/
+    #service_part {
+        padding: 70px 0;
+    }
+
+    .service_card h5 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .service_card p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .service_card .card-body {
+        padding: 0 0 0 15px;
+    }
+
+    .service_card {
+        padding: 15px 15px;
+    }
+
+    .service_head h2 {
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+
+    /*===========================================
+                Service part end 
+    ===========================================*/
+    /*===========================================
+                Work part start 
+    ===========================================*/
+    #portfolio_part {
+        padding: 70px 0 40px;
+    }
+
+    .portfolio_head h2 {
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+
+    .filter_menu ul li {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin: 0 7px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .filter_menu ul {
+        margin: 0 29px;
+    }
+
+    .filter_menu ul li {
+        font-size: 14px;
+        margin: 0 16px;
+    }
+
+    .filter_text {
+        padding: 15px 0 15px 15px;
+    }
+
+    .filter_text h3 {
+        padding-left: 0px;
+        font-size: 20px;
+    }
+
+    .filter_text a {
+        margin-top: 0px;
+    }
+
+    .port_btn a {
+        padding: 15px 40px;
+        font-size: 28px;
+    }
+
+    .port_btn a img {
+        margin-top: -4px;
+    }
+
+    /*===========================================
+                Work part end 
+    ===========================================*/
+    /*===========================================
+                Client part start 
+    ===========================================*/
+    .client_head h2 {
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+
+    #client_part {
+        padding-bottom: 45px;
+    }
+
+    .client_main i {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .message_icon {
+        display: inline-block;
+        position: absolute;
+        right: -24px;
+        top: 80%;
+    }
+
+    /*===========================================
+                Client part end 
+    ===========================================*/
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+
+    /*===========================================
+                Banner part start 
+    ===========================================*/
+    #banner_part {
+        padding: 60px 0 0px;
+        text-align: center;
+    }
+
+    .banner_text_left h2 span {
+        font-size: 45px;
+        display: block;
+    }
+
+    .banner_text_left h2 {
+        font-size: 60px;
+        line-height: .8;
+        margin-bottom: 15px;
+    }
+
+    .banner_text_right h3 {
+        font-size: 60px;
+    }
+
+    .banner_text_right h1 {
+        font-size: 65px;
+    }
+
+    .banner_text_right h1 span {
+        font-size: 60px;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+    .banner_man {
+        position: relative;
+        left: 0%;
+        transform: translate(0%);
+        bottom: 0px;
+        z-index: 88;
+    }
+
+    .banner_text_right {
+        padding-bottom: 15px;
+    }
+
+    /*===========================================
+                Banner part end 
+    ===========================================*/
+
+    /*===========================================
+                Menu part start 
+    ===========================================*/
+    .main_menu {
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .main_menu button i {
+        color: #fff;
+    }
+
+    .main_menu button {
+        margin: 0 auto;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .main_menu #navbarSupportedContent {
+        background: #282a39;
+        z-index: 999;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 9px;
+    }
+
+    /*===========================================
+                Menu part end 
+    ===========================================*/
+
+    /*===========================================
+                About part start 
+    ===========================================*/
+    #about_part {
+        padding: 50px 0 20px;
+    }
+
+    .about_text h3 {
+        padding-top: 0px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .main_counter {
+        text-align: left !important;
+    }
+
+    .about_text p {
+        font-size: 15px;
+        line-height: 22px;
+        padding: 15px 0 20px;
+    }
+
+    .about_text p span {
+        padding-top: 10px;
+    }
+
+    .about_text h2 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .about_counter h3 {
+        font-size: 60px;
+        margin-bottom: -5px;
+    }
+
+    .about_counter p {
+        font-size: 30px;
+    }
+
+    .about_counter::after {
+        display: none;
+    }
+
+    .about_counter {
+        width: 50%;
+        float: left;
+    }
+
+    /*===========================================
+                About part end 
+    ===========================================*/
+
+    /*===========================================
+                Service part start 
+    ===========================================*/
+    #service_part {
+        padding: 50px 0 26px;
+    }
+
+    .service_head h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .service_card {
+        padding: 15px 10px;
+    }
+
+    .service_card h5 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .service_card p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    /*===========================================
+                Service part end 
+    ===========================================*/
+
+    /*===========================================
+                Portfolio part start 
+    ===========================================*/
+    #portfolio_part {
+        padding: 50px 0 40px;
+    }
+
+    .portfolio_head h2 {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .filter_menu ul {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .filter_menu ul li {
+        width: 50%;
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+    .filter_menu ul li {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+
+    .filter_menu ul::after {
+        display: none;
+    }
+
+    .filter_menu ul li:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+    }
+
+    .filter_menu ul li:hover::before {
+        width: 100%;
+    }
+
+    .filter_menu ul li::after {
+        bottom: -1px;
+    }
+
+    .filter_active {
+        margin-top: 30px;
+    }
+
+    .filter_text {
+        padding: 15px 0 15px 15px;
+    }
+
+    .filter_text h3 {
+        font-size: 22px;
+        padding-left: 0;
+    }
+
+    .filter_text a {
+        margin-top: 0px;
+    }
+
+    .port_btn a {
+        padding: 15px 35px;
+        font-size: 25px;
+    }
+
+    .port_btn a img {
+        width: 20px;
+        height: 20px;
+        margin-top: -4px;
+        margin-left: 3px;
+    }
+
+    /*===========================================
+                Portfolio part end 
+    ===========================================*/
+
+    /*===========================================
+                Client part start 
+    ===========================================*/
+    .client_head h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .client_main i {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .service_card .card-body {
+        padding: 0 0 0 15px;
+    }
+
+    #client_part {
+        padding-bottom: 26px;
+    }
+
+    .message_icon {
+        right: 0;
+        top: 90%;
+    }
+
+    /*===========================================
+                Client part end 
+    ===========================================*/
+
+    /*===========================================
+                Footer part start 
+    ===========================================*/
+    #footer_part {
+        padding: 50px 0;
+    }
+
+    .footer_text h4 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer_text h4::after {
+        bottom: 15px;
+    }
+
+    .footer_text a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    /*===========================================
+                Footer part end 
+    ===========================================*/
+}
+
+@media (max-width:575px) {
+
+    /*===========================================
+                Banner part start 
+    ===========================================*/
+    #banner_part {
+        padding: 50px 0 0px;
+        text-align: center;
+    }
+
+    .banner_text_left h2 span {
+        font-size: 35px;
+    }
+
+    .banner_text_left h2 {
+        font-size: 50px;
+        line-height: .8;
+        margin-bottom: 15px;
+    }
+
+    .banner_text_right h3 {
+        font-size: 50px;
+    }
+
+    .banner_text_right h1 {
+        font-size: 55px;
+    }
+
+    .banner_text_right h1 span {
+        font-size: 50px;
+        display: inline-block;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+    .banner_man {
+        position: relative;
+        left: 0%;
+        transform: translate(0%);
+        bottom: 0px;
+        z-index: 88;
+    }
+
+    .banner_text_right {
+        padding-bottom: 15px;
+    }
+
+    .banner_text_right h3 span {
+        font-size: 35px;
+    }
+
+    /*===========================================
+                Banner part end 
+    ===========================================*/
+
+    /*===========================================
+                Menu part start 
+    ===========================================*/
+    .main_menu {
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .main_menu button i {
+        color: #fff;
+    }
+
+    .main_menu button {
+        margin: 0 auto;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .main_menu #navbarSupportedContent {
+        background: #282a39;
+        z-index: 999;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 9px;
+    }
+
+    /*===========================================
+                Menu part end 
+    ===========================================*/
+
+    /*===========================================
+                About part start 
+    ===========================================*/
+    #about_part {
+        padding: 50px 0 20px;
+    }
+
+    .about_text h3 {
+        padding-top: 0px;
+        font-size: 18px;
+        ;
+        line-height: 26px;
+    }
+
+    .main_counter {
+        text-align: left !important;
+    }
+
+    .about_text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 15px 0 20px;
+    }
+
+    .about_text p span {
+        padding-top: 10px;
+    }
+
+    .about_text h2 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    .about_counter h3 {
+        font-size: 45px;
+        margin-bottom: -5px;
+    }
+
+    .about_counter p {
+        font-size: 25px;
+    }
+
+    .about_counter::after {
+        display: none;
+    }
+
+    .about_counter {
+        width: 50%;
+        float: left;
+    }
+
+    /*===========================================
+                About part end 
+    ===========================================*/
+
+    /*===========================================
+                Service part start 
+    ===========================================*/
+    #service_part {
+        padding: 50px 0 26px;
+    }
+
+    .service_head h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .service_card {
+        padding: 15px 10px;
+    }
+
+    .service_card h5 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .service_card p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    /*===========================================
+                Service part end 
+    ===========================================*/
+
+    /*===========================================
+                Portfolio part start 
+    ===========================================*/
+    #portfolio_part {
+        padding: 50px 0 40px;
+    }
+
+    .portfolio_head h2 {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .filter_menu ul {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .filter_menu ul li {
+        width: 50%;
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+    .filter_menu ul li {
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+
+    .filter_menu ul::after {
+        display: none;
+    }
+
+    .filter_menu ul li:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+    }
+
+    .filter_menu ul li:hover::before {
+        width: 100%;
+    }
+
+    .filter_menu ul li::after {
+        bottom: -1px;
+    }
+
+    .filter_active {
+        margin-top: 30px;
+    }
+
+    .filter_text {
+        padding: 15px 0 15px 15px;
+    }
+
+    .filter_text h3 {
+        font-size: 18px;
+        padding-left: 0;
+    }
+
+    .filter_text a {
+        margin-top: 0px;
+    }
+
+    .port_btn a {
+        padding: 10px 25px;
+        font-size: 22px;
+    }
+
+    .port_btn a img {
+        width: 15px;
+        height: 15px;
+        margin-top: -4px;
+        margin-left: 3px;
+    }
+
+    /*===========================================
+                Portfolio part end 
+    ===========================================*/
+
+    /*===========================================
+                Client part start 
+    ===========================================*/
+    .client_head h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .client_main i {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .service_card .card-body {
+        padding: 0 0 0 15px;
+    }
+
+    #client_part {
+        padding-bottom: 26px;
+    }
+
+    .message_icon {
+        right: 0;
+        top: 90%;
+    }
+
+    /*===========================================
+                Client part end 
+    ===========================================*/
+
+    /*===========================================
+                Footer part start 
+    ===========================================*/
+    #footer_part {
+        padding: 50px 0;
+    }
+
+    .footer_text h4 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer_text h4::after {
+        bottom: 15px;
+    }
+
+    .footer_text a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    /*===========================================
+                Footer part end 
+    ===========================================*/
+}

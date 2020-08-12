@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*===========================================
+            Font Family Import end
+===========================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+a,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+/*===========================================
+            Common css end
+===========================================*/
+
+
+
+/*===========================================
+            Banner part start 
+===========================================*/
+#banner_part {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 240px 0 176px;
+    position: relative;
+}
+
+.banner_text_left h2 {
+    color: #fff;
+    font-size: 101px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    line-height: .5;
+    text-transform: uppercase;
+}
+
+.banner_text_left h2 span {
+    font-size: 62px;
+}
+
+.banner_cont {
+    position: relative;
+}
+
+.banner_man {
+    position: absolute;
+    left: 47%;
+    transform: translate(-50%);
+    bottom: -176px;
+    z-index: 99;
+}
+
+.banner_text_right h3 {
+    color: #fff;
+    font-size: 101px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    line-height: .8;
+}
+
+.banner_text_right h3 span {
+    font-size: 47px;
+    font-weight: 300;
+    display: block;
+}
+
+
+.banner_text_right h1 {
+    font-size: 123px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    line-height: .71;
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner_text_right h1 span {
+    font-size: 101px;
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+
+.banner_btn {
+    position: absolute;
+    right: 0;
+    bottom: 250px;
+    z-index: 99;
+}
+
+.banner_btn a {
+    background: #fff;
+    display: inline-block;
+    padding: 0 20px 0 65px;
+    position: relative;
+    line-height: 46px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #35384d;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+}
+
+.banner_btn a i {
+    width: 46px;
+    height: 46px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(170, 170, 170, 1) 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    line-height: 46px;
+    transform: rotate(90deg);
+    color: #3d3e5b;
+    font-size: 18px;
+}
+
+/*===========================================
+            Banner part end 
+===========================================*/
+
+/*===========================================
+            Menu part start 
+===========================================*/
+.main_menu {
+    height: 100px;
+    background: rgb(51, 54, 71);
+    background: linear-gradient(178deg, rgba(51, 54, 71, 1) 0%, rgba(40, 42, 57, 1) 100%);
+}
+
+.main_menu .navbar-nav .nav-item .nav-link {
+    padding: 0 29px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+}
+
+.menu_fix {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link.active {
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*===========================================
+            Menu part end 
+===========================================*/
+
+/*===========================================
+            About part start 
+===========================================*/
+#about_part {
+    padding: 100px 0;
+    background: #282a39;
+}
+
+.about_text h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 36px;
+    padding-top: 42px;
+}
+
+.about_text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 26px;
+    padding: 26px 0 40px;
+}
+
+.about_text p span {
+    display: block;
+    padding-top: 26px;
+}
+
+.about_text h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'Teko', sans-serif;
+}
+
+.about_counter h3 {
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 89px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    line-height: 1;
+    text-shadow: 0px 0px 80px rgba(255, 255, 255, 0.3);
+    margin-bottom: -20px;
+}
+
+.about_counter p {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Teko', sans-serif;
+    line-height: 1;
+}
+
+.about_counter {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.about_counter:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 15px;
+    width: 230px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.about_counter:last-child:after {
+    display: none;
+}
+
+.about_counter:nth-child(2):after {
+    width: 330px;
+}
+
+.about_counter:last-child {
+    padding-bottom: 0;
+}
+
+
+/*===========================================
+            About part end 
+===========================================*/
+
+/*===========================================
+            Service part start 
+===========================================*/
+#service_part {
+    padding: 80px 0;
+    background: rgb(51, 54, 71);
+    background: url(../images/service_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.service_head h2 {
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 36px;
+}
+
+.service_card {
+    padding: 60px 30px;
+    background: rgb(51, 54, 71);
+    background: linear-gradient(90deg, rgba(51, 54, 71, 1) 0%, rgba(40, 42, 57, 1) 100%);
+    border: 0;
+}
+
+.service_card h5 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+}
+
+.service_card p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 26px;
+}
+
+.service_card .card-body {
+    padding: 0 0 0 22px;
+}
+
+.service_card_gradient {
+    background: rgb(51, 54, 71);
+    background: linear-gradient(to left, rgba(51, 54, 71, 1) 0%, rgba(40, 42, 57, 1) 100%);
+}
+
+/*===========================================
+            Service part end 
+===========================================*/
+
+/*===========================================
+           portfolio part start 
+===========================================*/
+#portfolio_part {
+    background: #282a39;
+    padding: 100px 0 70px;
+}
+
+.portfolio_head h2 {
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 36px;
+    text-shadow: 0px 20px 80px rgba(255, 255, 255, 0.4);
+}
+
+.filter_menu ul {
+    position: relative;
+    margin: 0 27px;
+    padding-bottom: 20px;
+}
+
+.filter_menu ul:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.filter_menu ul li {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0 22px;
+    position: relative;
+    cursor: pointer;
+}
+
+.filter_menu ul li:first-child {
+    margin-left: 0;
+}
+
+.filter_menu ul li:last-child {
+    margin-right: 0;
+}
+
+.filter_menu ul li:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -21px;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+
+}
+
+.filter_menu ul li:before {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: -21px;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+
+}
+
+.filter_menu ul li:hover:after {
+    width: 50%;
+}
+
+.filter_menu ul li:hover:before {
+    width: 50%;
+}
+
+.filter_menu ul li.active:after,
+.filter_menu ul li.active:before {
+    width: 100%;
+}
+
+.filter_menu ul li.active {
+    font-weight: 700;
+}
+
+.filter_active {
+    margin-top: 60px;
+}
+
+.filter_text {
+    padding: 22px 0 22px 22px;
+    background: #333647;
+    background: -moz-linear-gradient(left, #333647 0%, #282a39 100%);
+    background: -webkit-linear-gradient(left, #333647 0%, #282a39 100%);
+    background: linear-gradient(to right, #333647 0%, #282a39 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333647', endColorstr='#282a39', GradientType=1);
+}
+
+.filter_text h3 {
+    padding-left: 30px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+}
+
+.filter_text a {
+    margin-top: 4px;
+}
+
+.filter_inner {
+    margin-bottom: 30px;
+}
+
+.port_btn a {
+    padding: 20px 55px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #bbbbbb 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #bbbbbb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#bbbbbb', GradientType=0);
+    border-radius: 40px;
+    line-height: 1;
+    color: #282a39;
+    text-transform: uppercase;
+    text-shadow: 0px 20px 80px rgba(255, 255, 255, 0.4);
+}
+
+.port_btn a img {
+    width: 20px;
+    height: 20px;
+    margin-top: -7px;
+    margin-left: 6px;
+}
+
+/*===========================================
+           portfolio part end 
+===========================================*/
+
+/*===========================================
+            Client part start 
+===========================================*/
+#client_part {
+    background: #282a39;
+    padding-bottom: 76px;
+}
+
+.client_head h2 {
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 36px;
+    text-shadow: 0px 20px 80px rgba(255, 255, 255, 0.4);
+}
+
+.client_main .service_card {
+    border: 1px solid #333647;
+}
+
+.client_main .service_card_gradient {
+    background: rgb(51, 54, 71);
+    background: linear-gradient(to right, #333647 0%, #282a39 100%);
+}
+
+.client_main h5 {
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 0px 20px 80px rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+}
+
+.client_main i {
+    font-size: 20px;
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.client_cont {
+    position: relative;
+}
+
+.message_icon {
+    display: inline-block;
+    position: absolute;
+    right: -100px;
+    top: 50%;
+}
+
+.message_icon a {
+    color: #292b3a;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(#fff, #bbb);
+    background-clip: border-box;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+/*===========================================
+            Client part end 
+===========================================*/
+
+/*===========================================
+            Footer part start 
+===========================================*/
+#footer_part {
+    background: url(../images/footer_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+.footer_text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.footer_text h4 {
+    background: -webkit-linear-gradient(#fff, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    padding-bottom: 52px;
+    text-shadow: 0px 20px 80px rgba(255, 255, 255, 0.4);
+    position: relative;
+    display: inline-block;
+}
+
+.footer_text h4::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 26px;
+    width: 94px;
+    height: 3px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.footer_text a {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    line-height: 50px;
+    margin-top: 24px;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #292b3a;
+    font-size: 18px;
+}
+
+.footer_text a:hover {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #aaaaaa 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #aaaaaa 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #aaaaaa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#aaaaaa', GradientType=0);
+}
+
+/*===========================================
+            Footer part end 
+===========================================*/
